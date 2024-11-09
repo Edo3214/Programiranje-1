@@ -19,7 +19,7 @@ int main()
     else
         for (int i = 1; i <= x; i++) rezultat += i / (cos(x / i) + x);
 
-    cout << rezultat << endl;
+    cout << ++rezultat << endl;  // formula ide 1+ brojac/sin(brojac/broj)+broj 
 
     system("pause>0");
     return 0;
